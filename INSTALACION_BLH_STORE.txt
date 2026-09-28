@@ -1,0 +1,16 @@
+BLH STORE - versión PWA
+
+Esta carpeta contiene la V3 del sistema preparada para instalarse como aplicación web (PWA).
+
+Archivos:
+- index.html: sistema BLH STORE V3
+- manifest.webmanifest: configuración de instalación
+- sw.js: service worker
+- icon.svg: icono BLH STORE
+
+Importante:
+Para que Android muestre "Instalar aplicación" y para que el service worker funcione,
+el sistema debe publicarse en una dirección HTTPS. Abrir index.html directamente desde
+content://downloads/ no permite completar esa instalación como PWA.
+
+La base de datos sigue siendo Supabase y no se modifica con estos archivos.
